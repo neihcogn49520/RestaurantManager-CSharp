@@ -203,15 +203,14 @@
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Location = new System.Drawing.Point(1085, 44);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(655, 644);
+            this.panel1.Size = new System.Drawing.Size(536, 644);
             this.panel1.TabIndex = 2;
             // 
             // groupBox1
@@ -257,8 +256,6 @@
             // dgvThucDon
             // 
             this.dgvThucDon.AllowUserToAddRows = false;
-            this.dgvThucDon.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
             this.dgvThucDon.BackgroundColor = System.Drawing.Color.White;
             this.dgvThucDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvThucDon.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -270,7 +267,7 @@
             this.dgvThucDon.ReadOnly = true;
             this.dgvThucDon.RowHeadersVisible = false;
             this.dgvThucDon.RowHeadersWidth = 51;
-            this.dgvThucDon.Size = new System.Drawing.Size(527, 497);
+            this.dgvThucDon.Size = new System.Drawing.Size(521, 497);
             this.dgvThucDon.TabIndex = 0;
             // 
             // clTenMonAn
